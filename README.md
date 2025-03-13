@@ -18,14 +18,14 @@ Ensure you have the following installed:
 - NLTK
 - Pickle (for model and vectorizer loading)
 
-###How It Works
+### How It Works
 - The user enters a text comment in the provided form on the webpage.
 - The text is cleaned and processed using NLTK functions (removing stopwords and stemming).
 - The processed text is vectorized using the pre-trained TF-IDF vectorizer.
 - The logistic regression model predicts the emotion based on the processed text.
 - The predicted emotion is displayed on the webpage.
   
-###Model Information
+### Model Information
 
 The emotion classification model is a Logistic Regression model, trained on labeled emotion data.
 
